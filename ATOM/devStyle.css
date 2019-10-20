@@ -1,0 +1,45 @@
+body{
+	background-color: #212121;
+}
+#top-menu{
+	color: white;
+	font-family: 'Josefin Sans', sans-serif;
+	margin-top: 100px;
+	width: 350px;
+	height: 400px;
+}
+table{
+	margin:auto;
+}
+a:link, a:visited{
+	text-decoration: none;
+	color: white;
+}
+a:active, a:hover{
+	text-decoration: none;
+	color: #212121;
+}
+div{
+	background-color: #004d40;
+}
+label{
+	margin-top: 5px;
+}
+h1{
+	padding: 5px;
+	margin: 10px;
+	font-family: 'Righteous', cursive;
+	color: white;
+	font-size: 60px;
+	text-align: center;
+
+}
+tr, td{
+	padding-bottom: 20px;
+	padding-right: 10px;
+}
+.container .col{
+	margin: auto;
+	padding: 20px;
+}
+
