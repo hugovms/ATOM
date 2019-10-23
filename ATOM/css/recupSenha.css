@@ -1,0 +1,29 @@
+body{
+	background-color: #212121;
+}
+.container{
+	background-color: red;
+	font-family: 'Josefin Sans', sans-serif;
+	margin-top: 100px;
+	width: 350px;
+	height: 400px;
+	background-color: #004d40;
+	color: white;
+	font-family: 'Josefin Sans', sans-serif;
+}
+h1{
+	padding: 5px;
+	margin: 10px;
+	font-family: 'Righteous', cursive;
+	color: white;
+	font-size: 60px;
+	text-align: center;
+}
+table{
+	margin: auto;
+	text-align: center;
+}
+tr, td{
+	padding-bottom: 20px;
+	padding-right: 10px;
+}
