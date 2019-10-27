@@ -12,7 +12,7 @@
 <body>
 	<div class="container">
 		<h1>Finalize seu cadastro!</h1>
-		<form action="conexao.php" method="POST">
+		<form action="send-data.php" method="post">
 			<div class="form-row">
 				<div class="form-group col-md-6">
 					<label for="inputNome">Nome:</label>
@@ -44,7 +44,7 @@
 				</div>
 			</div>
 			<div id="buttons">
-				<button type="submit" class="btn btn-light">Cadastrar!</button>
+				<input type="submit" value="Cadastrar!" class="btn btn-light">
 				<button type="reset" href="login.html" class="btn btn-light">Cancelar</button>
 			</div>
 		</form>
@@ -60,8 +60,8 @@
 		<!-- Já testei tirando isso pra ver se era porque baixava o negocio. Não é. -->
 		<!-- clicar em um botão redireciona para outra pagina -->
 		<script type="text/javascript">
-			$("button").click(function() {
-		      if ($(this).attr("href")) { window.location.href = $(this).attr("href"); } });
+			// $("button").click(function() {
+		    //   if ($(this).attr("href")) { window.location.href = $(this).attr("href"); } });
 		</script>
 	</footer>
 </body>
